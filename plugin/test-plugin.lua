@@ -1,2 +1,2 @@
-local textmode = require('scripts.test-plugin')
+local textmode = require('test-plugin')
 vim.api.nvim_create_user_command('TextmodeEnter', textmode, {force = false})
