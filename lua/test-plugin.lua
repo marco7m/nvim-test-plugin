@@ -4,11 +4,11 @@ local _maps = {
 }
 
 return function()
-	require('libmodal').layer.enter(
+	require('libmodal').layer.new(
             {
                 n = {
                     u = {
-                        rhs = 'sv',
+                        rhs = ':sv',
                         noremap = true
                     }
                 }
