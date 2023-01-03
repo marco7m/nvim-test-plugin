@@ -8,7 +8,7 @@ return function()
             {
                 n = {
                     u = {
-                        rhs = 'hs',
+                        rhs = 'sv',
                         noremap = true
                     }
                 }
