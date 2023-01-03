@@ -4,5 +4,14 @@ local _maps = {
 }
 
 return function()
-	require('libmodal').mode.enter('TEXTMODE', _maps)
+	require('libmodal').layer.enter(
+            {
+                n = {
+                    u = {
+                        rhs = 'hs',
+                        noremap = true
+                    }
+                }
+            }
+        )
 end
