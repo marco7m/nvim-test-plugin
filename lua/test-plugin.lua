@@ -12,6 +12,6 @@ return function()
                         noremap = true
                     }
                 }
-            },
+            }
         )
 end
