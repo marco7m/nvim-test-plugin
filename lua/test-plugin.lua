@@ -2,16 +2,13 @@
 -- local _maps = {
 --     ['u'] = function() vim.api.nvim_command('vs') end,
 -- }
+local layer = require('libmodal').layer.new({
+    n = {
+        u = {
+            rhs = ':sv',
+            noremap = true
+        }
+    }
+})
 
-return function()
-	require('libmodal').layer.new(
-            {
-                n = {
-                    u = {
-                        rhs = ':sv',
-                        noremap = true
-                    }
-                }
-            }
-        )
-end
+return layer
